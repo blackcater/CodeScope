@@ -9,8 +9,11 @@
 .claude/sessions
 .claude/plans
 .claude/*.local.json
+.zentree/
+
+# node_modules
+node_modules/
 
 # others
 temp/
 tmp/
-

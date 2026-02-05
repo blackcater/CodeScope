@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Root package for zentree",
+  "main": "index.js",
+  "scripts": {
+    "dev:desktop": "pnpm --filter @zentree/desktop dev"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "oxfmt": "^0.28.0",
+    "oxlint": "^1.43.0",
+    "typescript": "^5.9.3"
+  }
+}
