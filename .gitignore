@@ -1,0 +1,16 @@
+# os
+.DS_Store
+
+# editor
+.idea/
+!.idea/favicon.svg
+
+# code agents
+.claude/sessions
+.claude/plans
+.claude/*.local.json
+
+# others
+temp/
+tmp/
+
