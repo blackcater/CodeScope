@@ -2,11 +2,37 @@
   "name": "@codescope-app/desktop",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
-  "scripts": {},
-  "dependencies": {},
+  "main": "./out/main/index.js",
+  "scripts": {
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "build": "npm run typecheck && electron-vite build",
+    "typecheck": "npm run typecheck:node && npm run typecheck:web",
+    "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+    "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.2",
+    "@electron-toolkit/utils": "^4.0.0",
+    "electron-context-menu": "^4.1.1",
+    "electron-liquid-glass": "^1.1.1",
+    "node-pty": "^1.1.0",
+    "shell-env": "^4.0.3",
+    "shlex": "^3.0.0",
+    "smol-toml": "^1.6.0"
+  },
   "devDependencies": {
+    "@electron-toolkit/tsconfig": "^2.0.0",
     "@types/node": "^24",
-    "typescript": "^5.9.3"
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "electron": "^40.4.0",
+    "electron-devtools-installer": "^4.0.0",
+    "electron-vite": "^5.0.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.6"
   }
 }

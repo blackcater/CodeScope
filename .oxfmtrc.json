@@ -9,8 +9,9 @@
       ["parent", "type-parent"],
       ["sibling", "type-sibling"],
       ["index", "type-index"],
-      ["style"]
+      ["style", "side-effect-style"]
     ],
+    "internalPattern": ["~/", "@/", "@renderer/"],
     "order": "asc"
   },
   "experimentalSortPackageJson": true,

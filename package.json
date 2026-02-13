@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev:desktop": "pnpm --filter desktop dev",
     "test": "vitest run"
   },
   "devDependencies": {
