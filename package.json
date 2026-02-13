@@ -1,13 +1,12 @@
 {
-  "private": true,
   "name": "root",
   "version": "0.1.0",
+  "private": true,
   "scripts": {},
-  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^22.19.1",
+    "@types/node": "^24",
     "oxfmt": "^0.32.0",
-    "oxlint": "^1.43.0",
+    "oxlint": "^1.47.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.6",
     "vitest": "^4.0.18"
