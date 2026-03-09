@@ -6,9 +6,15 @@
     "paths": {
       "~/*": ["./src/*"],
       "@/*": ["./src/main/*"],
-      "@renderer/*": ["src/renderer/src/*"]
+      "@renderer/*": ["./src/renderer/src/*"]
     }
   },
-  "include": ["./src/**/*", "./src/**/*.d.ts", "electron.vite.config.ts"],
+  "include": [
+    "./src/**/*",
+    "./src/**/*.tsx",
+    "./src/preload/*.d.ts",
+    "./src/renderer/src/env.d.ts",
+    "electron.vite.config.ts"
+  ],
   "exclude": ["node_modules", "out"]
 }
