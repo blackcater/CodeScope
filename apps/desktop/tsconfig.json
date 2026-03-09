@@ -1,7 +1,14 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.node.json" },
-    { "path": "./tsconfig.web.json" }
-  ]
+  "extends": "@acme/tsconfig/electron.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["electron-vite/node"],
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/main/*"],
+      "@renderer/*": ["src/renderer/src/*"]
+    }
+  },
+  "include": ["./src/**/*", "./src/**/*.d.ts", "electron.vite.config.ts"],
+  "exclude": ["node_modules", "out"]
 }

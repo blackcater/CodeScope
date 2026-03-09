@@ -1,3 +1,7 @@
 {
-  "extends": "@acme/tsconfig/react-lib.json"
+  "extends": "@acme/tsconfig/react-lib.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["./src"]
 }

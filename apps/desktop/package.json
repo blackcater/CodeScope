@@ -20,12 +20,14 @@
     "@acme/ui": "workspace:*",
     "@electron-toolkit/preload": "^3.0.2",
     "@electron-toolkit/utils": "^4.0.0",
-    "electron-updater": "^6.3.9"
+    "@orpc/client": "^1.13.6",
+    "@orpc/contract": "^1.13.6",
+    "@orpc/server": "^1.13.6",
+    "electron-updater": "^6.3.9",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@electron-toolkit/eslint-config-prettier": "^3.0.0",
-    "@electron-toolkit/eslint-config-ts": "^3.1.0",
-    "@electron-toolkit/tsconfig": "^2.0.0",
+    "@acme/tsconfig": "workspace:*",
     "@tailwindcss/vite": "^4.2.1",
     "@types/node": "^22.19.1",
     "@types/react": "^19.2.7",
@@ -37,6 +39,7 @@
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "typescript": "^5.9.3",
-    "vite": "^7.2.6"
+    "vite": "^7.2.6",
+    "vite-tsconfig-paths": "^6.1.1"
   }
 }
