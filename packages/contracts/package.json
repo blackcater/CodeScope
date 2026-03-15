@@ -10,7 +10,7 @@
     "test:watch": "bun test --watch"
   },
   "dependencies": {
-    "@orpc/contract": "^1.13.6"
+    "@orpc/contract": "^1.13.7"
   },
   "devDependencies": {
     "@acme/tsconfig": "workspace:*",

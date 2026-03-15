@@ -10,7 +10,7 @@
     "test:watch": "bun test --watch"
   },
   "dependencies": {
-    "@agentclientprotocol/sdk": "^0.16.0"
+    "@agentclientprotocol/sdk": "^0.16.1"
   },
   "devDependencies": {
     "@acme/tsconfig": "workspace:*",
