@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "types": ["electron-vite/node"],
+    "allowImportingTsExtensions": true,
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./src/*"],
